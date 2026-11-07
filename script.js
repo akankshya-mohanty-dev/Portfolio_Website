@@ -1,13 +1,15 @@
-var tl=gsap.timeline()
-tl.from(".left h2,.left h1,.left p,.left #links",{
-    y:100,
-    duration:1,
-    delay:0.5,
-    opacity:0,
-    stagger:0.5  
-})
+document.getElementById('year').textContent = new Date().getFullYear();
 
-tl.from(".right>img",{
-   scale:0,
-   opacity:0,
-})
+var root = document.documentElement;
+try {
+  var saved = localStorage.getItem('theme');
+  if (saved) root.setAttribute('data-theme', saved);
+} catch (e) {}
+
+document.getElementById('theme').addEventListener('click', function () {
+  var current = root.getAttribute('data-theme') ||
+    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  var next = current === 'dark' ? 'light' : 'dark';
+  root.setAttribute('data-theme', next);
+  try { localStorage.setItem('theme', next); } catch (e) {}
+});

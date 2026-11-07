@@ -1,108 +1,171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akankshya Mohanty | Full-Stack Software Engineer</title>
+<meta name="description" content="Full-stack software engineer in Bhubaneswar building web apps with React, Next.js, Node.js, MongoDB and MySQL.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top">Akankshya Mohanty</a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="theme" aria-label="Toggle theme">&#9680;</button>
+</header>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="#" class="logo">Akankshya</a>
-        <div class="menu">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
-          <a href="#">Hire me</a>
+<main id="top">
+  <section class="hero">
+    <p class="eyebrow">Bhubaneswar, Odisha, India</p>
+    <h1>Full-stack software engineer building web apps people use every day.</h1>
+    <p class="lead">I work with React, Next.js, Node.js, Express, MongoDB and MySQL. Right now I build the patient website and portal at Prashanti Hospitals.</p>
+    <div class="cta">
+      <a class="btn primary" href="#contact">Get in touch</a>
+      <a class="btn" href="Akankshya_new_resume.pdf" target="_blank" rel="noopener">Resume</a>
+      <a class="btn" href="https://www.linkedin.com/in/akankshya-mohanty-/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/akankshya-mohanty-dev" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
 
-          <i class="fa fa-search"></i>
-          <i class="fa fa-moon-o"></i>
-        </div>
-      </nav>
+  <section id="about">
+    <h2>About</h2>
+    <p>I'm a full-stack engineer with 2+ years of experience, including internships and freelance work. I hold a Master of Computer Applications (BPUT Odisha, grade 8.45) and completed a Java Full Stack course at QSpiders.</p>
+    <p>I've worked at a product company, a consulting firm and a hospital, so I'm used to different team sizes and constraints. I like secure REST APIs, clean responsive interfaces, and connecting front ends to live systems.</p>
+  </section>
 
-      <div class="container">
-        <div class="left">
-          <h2>Hi, I'm Akankshya Mohanty</h2>
-          <h1>Frontend Web Developer</h1>
-          <p>
-            In the realm of web development, I craft digital experiences that
-            blend HTML, CSS, and JavaScript with the power of Bootstrap. My code
-            is not just lines; it's a canvas for creativity. Let's transform
-            your ideas into captivating online realities.
-          </p>
-          <br /><br />
-          <div id="links">
-            <a href="#" id="hire">Hire me</a>
-            <a href="index.html" id="myp">My Portfolio</a>
-          </div>
-        </div>
-
-        <div class="right">
-          <img src="images/Akankshya_pic.jpg" />
-        </div>
+  <section id="experience">
+    <h2>Experience</h2>
+    <article class="item">
+      <div class="when">Jun 2026 &ndash; Present</div>
+      <div>
+        <h3>Software Engineer, Prashanti Hospitals</h3>
+        <ul>
+          <li>Build and maintain the patient website and portal in Next.js and React: appointments, browser-based video consultations, reports and test results.</li>
+          <li>Connect the website to the hospital information system so departments, doctor ratings, packages and enquiry forms use live data.</li>
+          <li>Resolve QA and UAT findings across clinical and billing modules, recording each fix with test evidence.</li>
+          <li>Improve responsive layouts and navigation on public pages.</li>
+        </ul>
       </div>
-    </header>
-
-    <section id="bio">
-      <div class="leftbio">
-        <img src="images/Akankshya_cover.jpg" />
+    </article>
+    <article class="item">
+      <div class="when">Jan 2026 &ndash; May 2026</div>
+      <div>
+        <h3>SDE-I, Seereon</h3>
+        <ul>
+          <li>Developed full-stack web applications with React.js, Node.js, Express.js, MongoDB and MySQL.</li>
+          <li>Built secure REST APIs with JWT authentication and role-based access control.</li>
+          <li>Optimized database queries and backend APIs; debugged production issues.</li>
+        </ul>
       </div>
-      <div class="rightbio">
-        <div>
-          <p class="bio-head">MY BIOGRAPHY</p>
-          <h1 class="bio-fresh">Fresher in Web Development</h1>
-          <p class="bio-about">
-            Meet Akankshya, your web wizard extraordinaire! I speak the languages of HTML, CSS, JavaScript, and Bootstrap fluently, transforming code into captivating digital experiences. With a passion for pixel-perfect design and interactive magic, I'm your go-to developer to make the web a more beautiful place.
-          </p>
-          <hr />
-        </div>
-
-        <div class="info">
-          <div>
-            <p><b>Name:</b> Akankshya Mohanty</p>
-            <p><b>Email:</b> mohantyakankshya25@gmail.com</p>
-          </div>
-          <div>
-            <p><b>From:</b> Cuttack</p>
-            <p><b>Phone:</b> 6370935932</p>
-          </div>
-        </div>
-
-        <div id="follow">
-          <p>
-            <b>Follow me on:</b>
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-whatsapp"></i>
-            <i class="fa fa-snapchat"></i>
-            <i class="fa fa-youtube"></i>
-          </p>
-        </div>
-        <div class="link-h">
-          <a href="#" id="hire">Hire me</a>
-          <a href="Akankshya_new_resume.pdf" id="cv">Download cv</a>
-        </div>
+    </article>
+    <article class="item">
+      <div class="when">Nov 2024 &ndash; Dec 2025</div>
+      <div>
+        <h3>Software Developer, Web_Bocket Software Pvt. Ltd.</h3>
+        <ul>
+          <li>Built and enhanced enterprise web applications using the MERN stack.</li>
+          <li>Integrated REST APIs with front ends and developed responsive UI components.</li>
+          <li>Took part in code reviews, testing, bug fixing and deployments.</li>
+        </ul>
       </div>
-    </section>
+    </article>
+    <article class="item">
+      <div class="when">Mar 2024 &ndash; Oct 2025</div>
+      <div>
+        <h3>Web Developer (Part-time), Self Employed</h3>
+        <ul>
+          <li>Built and maintained websites for clients using React on the front end and Node.js on the back end.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="item">
+      <div class="when">Sep 2023 &ndash; Oct 2023</div>
+      <div>
+        <h3>Web Development Intern, Bharat Intern</h3>
+        <ul>
+          <li>Remote internship building web pages with HTML5 and CSS.</li>
+        </ul>
+      </div>
+    </article>
+  </section>
 
-    <footer>Designed by Akankshya Mohanty</footer>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Prashanti Hospitals patient portal</h3>
+        <p>Patient website and portal with appointments, video consultations and reports, connected to the hospital information system. Source code is private.</p>
+        <p class="tags">Next.js &middot; React</p>
+      </article>
+      <article class="card">
+        <h3>Education portal</h3>
+        <p>Education portal with an admin client app and a backend server.</p>
+        <p class="tags">JavaScript</p>
+        <a href="https://github.com/akankshya-mohanty-dev/Edu_Portal" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="card">
+        <h3>ERP backend</h3>
+        <p>Node.js backend for an ERP system, organised into routes, controllers, services, models and middlewares.</p>
+        <p class="tags">Node.js &middot; JavaScript</p>
+        <a href="https://github.com/akankshya-mohanty-dev/erp-backend" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="card">
+        <h3>Learning management system</h3>
+        <p>React + Vite front end and a Node.js backend API for a learning management system. Repositories are private.</p>
+        <p class="tags">React &middot; Vite &middot; Node.js</p>
+      </article>
+      <article class="card">
+        <h3>Temperature converter</h3>
+        <p>Simple temperature converter web app.</p>
+        <p class="tags">HTML &middot; CSS &middot; JavaScript</p>
+        <a href="https://github.com/akankshya-mohanty-dev/Temperature_Converter" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="card">
+        <h3>Core Java notes</h3>
+        <p>Study notes and practice programs covering OOP, inheritance, interfaces and more.</p>
+        <p class="tags">Java</p>
+        <a href="https://github.com/akankshya-mohanty-dev/Core-Java" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+    </div>
+  </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="script.js"></script>
-  </body>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="chips">
+      <li>React.js</li><li>Next.js</li><li>Node.js</li><li>JavaScript</li><li>Express.js</li>
+      <li>MongoDB</li><li>MySQL</li><li>PostgreSQL</li><li>REST APIs</li><li>JWT Authentication</li>
+      <li>Tailwind CSS</li><li>Bootstrap</li><li>HTML5 &amp; CSS3</li><li>Git &amp; GitHub</li>
+      <li>Agile</li><li>Java</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul class="plain">
+      <li><strong>Master of Computer Applications</strong>, BPUT Odisha (Ajay Binay Institute of Technology), 2022&ndash;2024. Grade 8.45.</li>
+      <li><strong>Java Full Stack Development Course</strong>, QSpiders, Mar&ndash;Oct 2024.</li>
+      <li><strong>Bachelor's degree in Chemistry</strong>, Utkal University, 2018&ndash;2021.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>I'm open to full-stack engineering roles. The best way to reach me is a message on LinkedIn or an email.</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:mohantyakankshya25@gmail.com">mohantyakankshya25@gmail.com</a>
+      <a class="btn" href="https://www.linkedin.com/in/akankshya-mohanty-/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/akankshya-mohanty-dev" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+</main>
+
+<footer>&copy; <span id="year"></span> Akankshya Mohanty</footer>
+<script src="script.js"></script>
+</body>
 </html>

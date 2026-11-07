@@ -1,43 +1,9 @@
-# Personal Portfolio Website
+# Akankshya Mohanty: Portfolio
 
-My personal portfolio website: a single-page site introducing me, my skills and my work as a web developer.
+Single-page portfolio built with plain HTML, CSS and JavaScript. No build step.
 
-**Live demo:** https://mohantyakankshya.github.io/Portfolio_Website/
+- `index.html`: content
+- `style.css`: styling, with light and dark themes
+- `script.js`: theme toggle and footer year
 
-## What's on the site
-
-- Introduction and short bio
-- Profile and cover images
-- Downloadable resume (`Akankshya_new_resume.pdf`)
-
-## Tech stack
-
-- HTML5
-- CSS3
-- JavaScript (vanilla)
-
-## Project structure
-
-```
-Portfolio_Website/
-├── index.html                  # page markup
-├── style.css                   # styling
-├── script.js                   # page behaviour
-├── images/                     # profile and cover images
-└── Akankshya_new_resume.pdf    # downloadable resume
-```
-
-## Run locally
-
-No installation is needed.
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/akankshya-mohanty-dev/Portfolio_Website.git
-   ```
-2. Open `index.html` in your browser.
-
-## Author
-
-**Akankshya Mohanty** - MERN Stack Developer
-[GitHub](https://github.com/akankshya-mohanty-dev) | [LinkedIn](https://www.linkedin.com/in/akankshya-mohanty-/)
+Open `index.html` in a browser to view it locally.
